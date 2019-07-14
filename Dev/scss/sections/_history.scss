@@ -1,0 +1,51 @@
+/* =============
+    History
+============= */
+#history {
+    text-align: center;
+
+    img:first-child {
+        padding: 60px 0 53px;
+    }
+
+    h1 {
+        color: $primary;
+        font-family: 'Comfortaa', cursive;
+        font-size: rem-calc(31);
+        letter-spacing: rem-calc(0.89);
+        line-height: rem-calc(46);
+
+        span {
+            font-size: rem-calc(46);
+            letter-spacing: rem-calc(1.32);
+        }
+    }
+
+    h1+p {
+        font-size: rem-calc(17);
+        padding: 41px 0 36px;
+    }
+
+    article {
+        font-size: rem-calc(18);
+        font-weight: 600;
+        line-height: rem-calc(22);
+        text-align: justify;
+
+        p {
+            padding-bottom: 30px;
+        }
+    }
+
+    h3 {
+        font-size: rem-calc(16);
+        font-weight: 700;
+        padding-top: 14px;
+        text-align: left;
+    }
+
+    h3+p {
+        padding-bottom: 62px;
+        text-align: justify;
+    }
+}

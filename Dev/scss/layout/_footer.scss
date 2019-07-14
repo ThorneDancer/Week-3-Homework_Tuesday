@@ -1,0 +1,40 @@
+/* =============
+    Footer
+============= */
+footer {
+    background-color: $primary;
+    text-align: center;
+
+    h1 {
+        font-size: rem-calc(20);
+        font-weight: 700;
+        padding: 51px 0 17px;
+
+        span {
+            color: $white;
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 53px;
+
+        a:link,
+        a:visited {
+            color: $black;
+            font-size: rem-calc(24);
+            padding-right: 20px;
+            transition: 0.25s;
+        }
+
+        a:active,
+        a:hover {
+            color: $white;
+        }
+
+        :last-child {
+            padding-right: 0;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+/* =============
+    Gallery
+============= */
+#gallery {
+    color: $primary;
+    font-family: 'Pacifico', cursive;
+    font-size: rem-calc(43);
+    font-weight: 400;
+    letter-spacing: rem-calc(1.43);
+    padding-bottom: 40px;
+    text-align: center;
+
+    h1 {
+        padding: 157px 0 117px;
+    }
+
+    img {
+        height: 100%;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+}

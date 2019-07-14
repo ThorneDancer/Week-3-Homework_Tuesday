@@ -1,0 +1,79 @@
+/* =============
+    Skills
+============= */
+#skills {
+    background-color: $secondary;
+    color: $white;
+
+    > section:nth-child(1) {
+        background-image: url("../img/hero/Hero-2.jpg");
+        background-size: cover;
+        height: 433px;
+    }
+
+    h1 {
+        font-family: 'Comfortaa', cursive;
+        font-size: rem-calc(21);
+        font-weight: 400;
+        padding: 62px 0 34px;
+    }
+
+    h1+p {
+        padding-bottom: -32px;
+    }
+
+    ul {
+        padding-bottom: 60px;
+
+        li {
+            padding-top: 56px;
+
+            > div {
+                display: flex;
+                justify-content: space-between;
+
+                h3 {
+                    font-size: rem-calc(18);
+                    font-weight: 400;
+                }
+
+                h4 {
+                    font-size: rem-calc(18);
+                    font-weight: 700;
+                }
+            }
+
+            .background-bar {
+                background-color: $black;
+                height: 9px;
+                margin-top: 11px;
+
+                #emotion {
+                    background-color: $primary;
+                    height: 9px;
+                    width: 62%;
+                }
+
+                #learning {
+                    background-color: $primary;
+                    height: 9px;
+                    width: 90%;
+                }
+
+                #math {
+                    background-color: $primary;
+                    height: 9px;
+                    width: 95%;
+                }
+            }
+        }
+    }
+}
+
+#hero-3 {
+    background-image: url("../img/hero/Hero-3.jpg");
+    background-position: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 421px;
+}

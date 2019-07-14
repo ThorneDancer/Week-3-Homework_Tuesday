@@ -1,0 +1,35 @@
+/* =============
+    Header
+============= */
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 10px;
+
+    nav {
+        font-size: rem-calc(26);
+
+        a:link,
+        a:visited {
+            color: $black;
+            transition: 0.25s;
+        }
+
+        a:active,
+        a:hover {
+            color: $primary;
+        }
+    }
+
+    article {
+        background-color: $primary;
+        border-radius: 23px;
+        padding: 12px 27px;
+
+        h1 {
+            font-size: rem-calc(18);
+            font-weight: 700;
+        }
+    }
+}
