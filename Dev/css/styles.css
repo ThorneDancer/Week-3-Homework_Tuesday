@@ -322,7 +322,8 @@ ul {
     list-style: none; }
 
 a:link, a:visited {
-  text-decoration: none; }
+  text-decoration: none;
+  transition: 0.25s; }
 
 .project-grid {
   display: grid;
@@ -335,7 +336,7 @@ a:link, a:visited {
     Typography
 ============= */
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Teko', sans-serif; }
 
 /* =============
     Buttons
@@ -362,168 +363,23 @@ textarea {
     Header
 ============= */
 header {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  padding: 12px 10px; }
-  header nav {
-    font-size: 1.625rem; }
-    header nav a:link,
-    header nav a:visited {
-      color: #000;
-      transition: 0.25s; }
-    header nav a:active,
-    header nav a:hover {
-      color: #FCCB31; }
-  header article {
-    background-color: #FCCB31;
-    border-radius: 23px;
-    padding: 12px 27px; }
-    header article h1 {
-      font-size: 1.125rem;
-      font-weight: 700; }
+  font-family: 'Satisfy', cursive; }
 
 /* =============
     Footer
 ============= */
-footer {
-  background-color: #FCCB31;
-  text-align: center; }
-  footer h1 {
-    font-size: 1.25rem;
-    font-weight: 700;
-    padding: 51px 0 17px; }
-    footer h1 span {
-      color: #fff; }
-  footer nav {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 53px; }
-    footer nav a:link,
-    footer nav a:visited {
-      color: #000;
-      font-size: 1.5rem;
-      padding-right: 20px;
-      transition: 0.25s; }
-    footer nav a:active,
-    footer nav a:hover {
-      color: #fff; }
-    footer nav :last-child {
-      padding-right: 0; }
-
 /* =============
     Hero
 ============= */
-#hero {
-  background-image: url("../img/hero/Hero-1.jpg");
-  background-position: 40%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 458px; }
-
 /* =============
-    History
+    Basics
 ============= */
-#history {
-  text-align: center; }
-  #history img:first-child {
-    padding: 60px 0 53px; }
-  #history h1 {
-    color: #FCCB31;
-    font-family: 'Comfortaa', cursive;
-    font-size: 1.9375rem;
-    letter-spacing: 0.055625rem;
-    line-height: 2.875rem; }
-    #history h1 span {
-      font-size: 2.875rem;
-      letter-spacing: 0.0825rem; }
-  #history h1 + p {
-    font-size: 1.0625rem;
-    padding: 41px 0 36px; }
-  #history article {
-    font-size: 1.125rem;
-    font-weight: 600;
-    line-height: 1.375rem;
-    text-align: justify; }
-    #history article p {
-      padding-bottom: 30px; }
-  #history h3 {
-    font-size: 1rem;
-    font-weight: 700;
-    padding-top: 14px;
-    text-align: left; }
-  #history h3 + p {
-    padding-bottom: 62px;
-    text-align: justify; }
-
 /* =============
-    Skills
+    Weekly-1
 ============= */
-#skills {
-  background-color: #222222;
-  color: #fff; }
-  #skills > section:nth-child(1) {
-    background-image: url("../img/hero/Hero-2.jpg");
-    background-size: cover;
-    height: 433px; }
-  #skills h1 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 1.3125rem;
-    font-weight: 400;
-    padding: 62px 0 34px; }
-  #skills h1 + p {
-    padding-bottom: -32px; }
-  #skills ul {
-    padding-bottom: 60px; }
-    #skills ul li {
-      padding-top: 56px; }
-      #skills ul li > div {
-        display: flex;
-        justify-content: space-between; }
-        #skills ul li > div h3 {
-          font-size: 1.125rem;
-          font-weight: 400; }
-        #skills ul li > div h4 {
-          font-size: 1.125rem;
-          font-weight: 700; }
-      #skills ul li .background-bar {
-        background-color: #000;
-        height: 9px;
-        margin-top: 11px; }
-        #skills ul li .background-bar #emotion {
-          background-color: #FCCB31;
-          height: 9px;
-          width: 62%; }
-        #skills ul li .background-bar #learning {
-          background-color: #FCCB31;
-          height: 9px;
-          width: 90%; }
-        #skills ul li .background-bar #math {
-          background-color: #FCCB31;
-          height: 9px;
-          width: 95%; }
-
-#hero-3 {
-  background-image: url("../img/hero/Hero-3.jpg");
-  background-position: 75%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 421px; }
-
 /* =============
-    Gallery
+    Bestiary
 ============= */
-#gallery {
-  color: #FCCB31;
-  font-family: 'Pacifico', cursive;
-  font-size: 2.6875rem;
-  font-weight: 400;
-  letter-spacing: 0.089375rem;
-  padding-bottom: 40px;
-  text-align: center; }
-  #gallery h1 {
-    padding: 157px 0 117px; }
-  #gallery img {
-    height: 100%;
-    padding-bottom: 20px;
-    width: 100%; }
+/* =============
+    Weekly-2
+============= */

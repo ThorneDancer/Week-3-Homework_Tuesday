@@ -19,103 +19,125 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/img/gallery/Gallery-1.jpg": {
+	"/img/bestiary/computer.jpg": {
 		"ft": 16384,
-		"iS": 71792,
+		"iS": 114853,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/gallery/Gallery-1.jpg",
+		"oAP": "/img/bestiary/computer.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/img/gallery/Gallery-2.jpg": {
-		"ft": 16384,
-		"iS": 46829,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gallery/Gallery-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/gallery/Gallery-3.jpg": {
-		"ft": 16384,
-		"iS": 42521,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gallery/Gallery-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/gallery/Gallery-4.jpg": {
-		"ft": 16384,
-		"iS": 23488,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gallery/Gallery-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/gallery/Gallery-5.jpg": {
-		"ft": 16384,
-		"iS": 28752,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gallery/Gallery-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/gallery/Gallery-6.jpg": {
-		"ft": 16384,
-		"iS": 72253,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gallery/Gallery-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/hero/Hero-2.jpg": {
-		"ft": 16384,
-		"iS": 77614,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/hero/Hero-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/hero/Hero-3.jpg": {
-		"ft": 16384,
-		"iS": 53666,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/hero/Hero-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/profile/Profile.png": {
+	"/img/bestiary/elemental.png": {
 		"ft": 32768,
-		"iS": 8591,
+		"iS": 693252,
 		"oA": 0,
-		"oAP": "/img/profile/Profile.png",
+		"oAP": "/img/bestiary/elemental.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/img/bestiary/nightwalker.png": {
+		"ft": 32768,
+		"iS": 280803,
+		"oA": 0,
+		"oAP": "/img/bestiary/nightwalker.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/bestiary/tarrasque.jpeg": {
+		"ft": 16384,
+		"iS": 474802,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/bestiary/tarrasque.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/bestiary/yig.jpg": {
+		"ft": 16384,
+		"iS": 49865,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/bestiary/yig.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/hero/hero-1.jpg": {
+		"ft": 16384,
+		"iS": 480676,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/hero/hero-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/hero/hero-2.jpg": {
+		"ft": 16384,
+		"iS": 172730,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/hero/hero-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/icons/icon-1.jpg": {
+		"ft": 16384,
+		"iS": 674649,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/icons/icon-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/icons/icon-2.jpg": {
+		"ft": 16384,
+		"iS": 670286,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/icons/icon-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/icons/icon-3.png": {
+		"ft": 32768,
+		"iS": 679000,
+		"oA": 0,
+		"oAP": "/img/icons/icon-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/icons/icon-4.jpg": {
+		"ft": 16384,
+		"iS": 43259,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/icons/icon-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/index.html": {
@@ -267,7 +289,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/sections/_gallery.scss": {
+	"/scss/sections/_basics.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -275,7 +297,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/sections/_gallery.css",
+		"oAP": "/scss/sections/_basics.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/sections/_bestiary.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/sections/_bestiary.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -293,7 +328,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/sections/_history.scss": {
+	"/scss/sections/_weekly-1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -301,12 +336,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/sections/_history.css",
+		"oAP": "/scss/sections/_weekly-1.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/sections/_skills.scss": {
+	"/scss/sections/_weekly-2.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -314,7 +349,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/sections/_skills.css",
+		"oAP": "/scss/sections/_weekly-2.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
