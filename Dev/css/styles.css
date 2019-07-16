@@ -363,23 +363,299 @@ textarea {
     Header
 ============= */
 header {
-  font-family: 'Satisfy', cursive; }
+  color: #8D8D8D;
+  display: flex;
+  font-family: 'Satisfy', cursive;
+  justify-content: space-between;
+  padding: 10px; }
+  header h1 {
+    font-size: 1.25rem;
+    font-weight: 400; }
+  header a:link,
+  header a:visited {
+    color: #000;
+    font-size: 1.5rem; }
+  header a:active,
+  header a:hover {
+    color: #8D8D8D; }
 
 /* =============
     Footer
 ============= */
+footer {
+  color: #313131;
+  font-size: 1.75rem; }
+  footer ul {
+    align-items: center;
+    display: flex;
+    justify-content: center; }
+    footer ul li {
+      margin: 20px 10px; }
+
 /* =============
     Hero
 ============= */
+#hero {
+  background-image: url("../img/hero/hero-1.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  #hero article:first-child {
+    color: #F71818;
+    font-family: 'Satisfy', cursive;
+    padding-top: 68px;
+    text-align: center; }
+    #hero article:first-child > h2 {
+      font-size: 1.875rem; }
+    #hero article:first-child h2 + h1 {
+      font-size: 2.75rem;
+      margin-bottom: 80px;
+      margin-top: -5px; }
+  #hero article:nth-child(2) {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    text-align: center; }
+    #hero article:nth-child(2) > h1 {
+      font-size: 1.5rem; }
+    #hero article:nth-child(2) h1 + h2 {
+      font-size: 1.125rem;
+      margin-top: -5px; }
+    #hero article:nth-child(2) h2:nth-child(3) {
+      font-family: 'Teko', sans-serif;
+      font-size: 1.125rem;
+      font-weight: 400;
+      margin: 20px 0; }
+  #hero article:last-child {
+    text-align: justify; }
+    #hero article:last-child p {
+      padding-bottom: 30px; }
+    #hero article:last-child p:nth-child(2) {
+      padding-bottom: 0; }
+    #hero article:last-child > nav {
+      padding: 10px 0 40px; }
+      #hero article:last-child > nav a {
+        color: #8D8D8D;
+        font-size: 1.125rem; }
+
 /* =============
     Basics
 ============= */
+#basics {
+  background-color: #313131;
+  color: #fff; }
+  #basics > article {
+    background-image: url("../img/hero/hero-2.jpg");
+    background-position: center;
+    background-size: 100%; }
+    #basics > article h1 {
+      color: #F71818;
+      font-family: 'Satisfy', cursive;
+      padding: 10px 0 150px;
+      text-align: center; }
+  #basics ul {
+    padding: 30px 0; }
+    #basics ul li {
+      display: grid;
+      grid-template-areas: ". . div text ." ". . div text .";
+      grid-template-columns: 10px 10% 10% auto 10px;
+      margin-bottom: 20px; }
+      #basics ul li div {
+        grid-area: div; }
+        #basics ul li div img {
+          height: 45px;
+          width: 35px; }
+        #basics ul li div h4 {
+          color: #8D8D8D;
+          font-size: 0.875rem;
+          padding-top: 10px; }
+      #basics ul li article {
+        grid-area: text; }
+        #basics ul li article h1 {
+          font-family: 'DM Serif Display', serif;
+          font-size: 1.5rem;
+          margin-bottom: 10px; }
+        #basics ul li article p {
+          line-height: 1.25rem;
+          text-align: justify; }
+
 /* =============
     Weekly-1
 ============= */
+#weekly-1 {
+  background-image: url("../img/bestiary/nightwalker.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 40px 0; }
+  #weekly-1 > section article:first-child {
+    font-family: 'DM Serif Display', serif;
+    padding-top: 245px;
+    text-align: right; }
+    #weekly-1 > section article:first-child h1 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-top: -2px; }
+    #weekly-1 > section article:first-child h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin: 10px 0 245px; }
+  #weekly-1 > section article + p {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    padding-bottom: 20px;
+    text-align: center; }
+  #weekly-1 > section p + article {
+    padding: 0 10px;
+    text-align: justify; }
+    #weekly-1 > section p + article p:first-child {
+      padding-bottom: 20px; }
+
 /* =============
     Bestiary
 ============= */
+#bestiary div > h1 {
+  color: #F71818;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center; }
+
+#bestiary div ul li:first-child {
+  background-image: url("../img/bestiary/tarrasque.jpeg");
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 20px; }
+  #bestiary div ul li:first-child div {
+    background-color: rgba(49, 49, 49, 0.7);
+    background-position: center;
+    background-size: 100%; }
+  #bestiary div ul li:first-child h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 17px 0 70px;
+    text-align: center; }
+  #bestiary div ul li:first-child p {
+    color: #fff;
+    padding: 0 10px 180px;
+    text-align: justify; }
+
+#bestiary div ul li:nth-child(2) {
+  background-image: url("../img/bestiary/yig.jpg");
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 20px; }
+  #bestiary div ul li:nth-child(2) div {
+    background-color: rgba(49, 49, 49, 0.7);
+    background-position: center;
+    background-size: 100%; }
+  #bestiary div ul li:nth-child(2) h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 17px 0 40px;
+    text-align: center; }
+  #bestiary div ul li:nth-child(2) p {
+    color: #fff;
+    padding: 0 10px 100px;
+    text-align: justify; }
+
+#bestiary div ul li:nth-child(3) {
+  background-image: url("../img/bestiary/elemental.png");
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 20px; }
+  #bestiary div ul li:nth-child(3) div {
+    background-color: rgba(49, 49, 49, 0.7);
+    background-position: center;
+    background-size: 100%; }
+  #bestiary div ul li:nth-child(3) h1 {
+    color: #fff;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 17px 0 40px;
+    text-align: center; }
+  #bestiary div ul li:nth-child(3) p {
+    color: #fff;
+    padding: 0 10px 60px;
+    text-align: justify; }
+
+#bestiary div ul li:last-child {
+  background-image: url("../img/bestiary/computer.jpg");
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 60px; }
+  #bestiary div ul li:last-child div {
+    background-color: rgba(49, 49, 49, 0.7);
+    background-position: center;
+    background-size: 100%; }
+  #bestiary div ul li:last-child h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 17px 0 40px;
+    text-align: center; }
+  #bestiary div ul li:last-child p {
+    padding: 0 10px 60px;
+    text-align: justify; }
+
 /* =============
     Weekly-2
 ============= */
+#weekly-2 {
+  background-color: #313131;
+  color: #fff; }
+  #weekly-2 article:first-child {
+    font-family: 'DM Serif Display', serif;
+    margin-top: 20px;
+    text-align: center; }
+    #weekly-2 article:first-child h1 {
+      font-size: 1.75rem;
+      font-weight: 400;
+      padding-bottom: 10px; }
+    #weekly-2 article:first-child h1 + h2 {
+      font-size: 1.25rem;
+      font-weight: 400;
+      padding-bottom: 0; }
+    #weekly-2 article:first-child > h2 {
+      font-size: 1rem;
+      font-weight: 400;
+      padding-bottom: 10px; }
+  #weekly-2 article:nth-child(2) {
+    padding-bottom: 20px; }
+    #weekly-2 article:nth-child(2) p {
+      padding-bottom: 3px; }
+  #weekly-2 article:nth-child(3) {
+    padding-bottom: 20px; }
+    #weekly-2 article:nth-child(3) p {
+      padding-bottom: 3px; }
+      #weekly-2 article:nth-child(3) p span {
+        font-weight: 700; }
+  #weekly-2 article:nth-child(4) {
+    padding-bottom: 20px; }
+    #weekly-2 article:nth-child(4) h1 {
+      font-size: 1rem;
+      padding-bottom: 5px; }
+    #weekly-2 article:nth-child(4) p {
+      padding-bottom: 3px; }
+      #weekly-2 article:nth-child(4) p span {
+        font-weight: 700; }
+  #weekly-2 nav section {
+    align-items: center;
+    display: flex;
+    justify-content: space-around; }
+    #weekly-2 nav section div {
+      background-color: #fff;
+      height: 20px;
+      margin-left: 40px;
+      width: 220px; }
+    #weekly-2 nav section h1 {
+      background-color: #8D8D8D;
+      border-radius: 5px;
+      color: #313131;
+      font-size: 0.75rem;
+      padding: 5px 10px; }
+  #weekly-2 nav p {
+    padding: 15px 0;
+    text-align: center; }
